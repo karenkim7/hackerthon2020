@@ -13,7 +13,7 @@ dispatcher = updater.dispatcher
 def start(update, context):
     chat_id = update.effective_chat.id
     user_name = update.effective_chat.first_name
-    context.bot.sendMessage(chat_id, text = '안녕하세요 바루미입니다.😊 \n%s님의 통계를 보내드리겠습니다. \n\n/tasks를 입력하시면 보고 싶은 통계를 선택하실 수 있습니다. \n\n/image를 입력하시면 통계를 사진으로 확인하실 수 있습니다.'% user_name)
+    context.bot.sendMessage(chat_id, text = '안녕하세요 바루미입니다.😊 \n%s님의 통계를 보내드리겠습니다. \n\n/tasks를 입력하시면 보고 싶은 통계를 선택하실 수 있습니다.'% user_name)
     
 def stop(update, context):
     chat_id = update.effective_chat.id
